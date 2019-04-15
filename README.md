@@ -13,6 +13,12 @@ Folder [Images](./images) contains images used in codes
 3. Spatial Filtering (Convolution)
 - [Convolution](./03_filtering.ipynb): convolution operator, designing filters for spatial processing
 
+4. Fourier Transform and Frequency Analysis
+- [(1) Frequency Analysis](./04a_frequency_analysis.ipynb): introduction to the analysis of frequencies
+- [(2) Discrete Fourier Transform](./04b_fourier_transform.ipynb): the Discrete Fourier Transform in 1D and 2D
+- [(3) Fast Fourier Transform](./04c_fourier_transform_fft.ipynb): the divide and conquer algorithm to implement Discrete Fourier Transform in O(n log n) time
+
+5. Image Restoration 
 
 
 
