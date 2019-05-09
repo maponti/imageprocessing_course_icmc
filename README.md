@@ -19,6 +19,11 @@ Folder [Images](./images) contains images used in codes
 - [(3) Fast Fourier Transform](./04c_fourier_transform_fft.ipynb): the divide and conquer algorithm to implement Discrete Fourier Transform in O(n log n) time
 
 5. Image Restoration 
+- [(1) Denoising](./05a_restoration_noise.ipynb): simulating and studying noise, and filtering it out using denoising methods
+- [(2) Deconvolution](./05b_restoration_deconvolution.ipynb): the point spread function and inverse problems
+
+6. Colour images
+- 
 
 
 
