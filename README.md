@@ -23,7 +23,10 @@ Folder [Images](./images) contains images used in codes
 - [(2) Deconvolution](./05b_restoration_deconvolution.ipynb): the point spread function and inverse problems
 
 6. Colour images
-- 
+- [(1) Colour Image Processing](./06a_colour_processing.ipynb): colour spaces and processing images
+- [(2) Colour Image Description](./06b_colour_description.ipynb): using colour information to extract features from images 
+
+
 
 
 
