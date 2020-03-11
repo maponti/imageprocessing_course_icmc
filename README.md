@@ -1,7 +1,19 @@
 ## Code repository for the courses SCC0251 / SCC5830 *Image Processing*
-### Moacir A. Ponti, 2019-1
+### Moacir A. Ponti, 2020-1
 
-#### Contents:
+#### Software Installation
+```
+sudo pip install virtualenvwrapper
+source /usr/bin/virtualenvwrapper.sh
+mkvirtualenv venv
+(venv) $ pip install numpy
+(venv) $ pip install imageio
+(venv) $ pip install matplotlib
+(venv) $ pip install scipy
+(venv) $ pip install jupyter
+```
+
+#### Content:
 Folder [Images](./images) contains images used in codes
 
 1. [Fundamentals](./01_fundamentals.ipynb): basic libraries, loading images, pixel processing, showing and writing images in disk
@@ -26,7 +38,7 @@ Folder [Images](./images) contains images used in codes
 - [(1) Colour Image Processing](./06a_colour_processing.ipynb): colour spaces and processing images
 - [(2) Colour Image Description](./06b_colour_description.ipynb): using colour information to extract features from images 
 
-
-
+7. Image Segmentation
+- [Threshold and Region-based Segmentation](./07_segmentation.ipynb): strategies for threshold-based (histogram) and region-based (pixel) segmentation
 
 
