@@ -3,7 +3,7 @@
 
 #### Software Installation
 ```
-sudo pip install virtualenvwrapper
+pip install --user virtualenvwrapper
 source /usr/bin/virtualenvwrapper.sh
 mkvirtualenv venv
 (venv) $ pip install numpy
@@ -11,6 +11,10 @@ mkvirtualenv venv
 (venv) $ pip install matplotlib
 (venv) $ pip install scipy
 (venv) $ pip install jupyter
+```
+#### Running Jupyter Notebook
+```
+(venv) $ jupyter notebook
 ```
 
 #### Content:
