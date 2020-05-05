@@ -1,18 +1,45 @@
 ## Code repository for the courses SCC0251 / SCC5830 *Image Processing*
 ### Moacir A. Ponti, 2020-1
 
-#### Software Installation
+#### Software Installation (using command line)
+install virtualenvwrapper to manage virtual environments
+
 ```
 pip install --user virtualenvwrapper
-source /usr/bin/virtualenvwrapper.sh
+```
+
+start the virtualenvwrapper
+```
+$ source /usr/local/bin/virtualenvwrapper.sh
+```
+
+make sure to include this at the shell session startup - usually .bashrc 
+```
+echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
+```
+
+in order to create a new environment called venv use:
+```
 mkvirtualenv venv
+```
+
+inside the virtual environment, install all needed python packages
+```
 (venv) $ pip install numpy
 (venv) $ pip install imageio
 (venv) $ pip install matplotlib
 (venv) $ pip install scipy
 (venv) $ pip install jupyter
 ```
+
+if you want to enter the virtual environment later, just type
+```
+workon venv
+```
+
+
 #### Running Jupyter Notebook
+it opens on your browser in order to create new notebooks or run existing ones
 ```
 (venv) $ jupyter notebook
 ```
@@ -44,5 +71,3 @@ Folder [Images](./images) contains images used in codes
 
 7. Image Segmentation
 - [Threshold and Region-based Segmentation](./07_segmentation.ipynb): strategies for threshold-based (histogram) and region-based (pixel) segmentation
-
-
